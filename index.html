@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <div>
+        <ol type="i">
+           <li> <h4>Name</h4></li> 
+           <li><h4>email</h4></li>
+           <li><h4>address</h4></li>
+           <li><h4>phone</h4></li>
+           <li><h4>occupation</h4></li>
+
+        </ol>
+        <div>
+            <img src="./pexels-julie-viken-148496-593451.jpg" alt="medicine" width="400px" height="400px">
+        </div>
+
+        <div>
+            <table bgcolor="black"  width="1800">
+                <tr bgcolor="grey">
+                    <th width="400">Name</th>
+                    <th  width="400">Address</th>
+                    <th  width="400">Mobile</th>
+                    <th  width="400">Email</th>
+                </tr>
+
+                <tr align="center" bgcolor="lightgrey">
+                    <td>BABATUNDE OSENI</td>
+                    <td>2 AJALENKOKO STREET LAGOS</td>
+                    <td>080........</td>
+                    <td>.......@GMAIL</td>
+                </tr>
+
+                <tr align="center" bgcolor="lightgrey">
+                    <td>TOPE ALIU</td>
+
+                    <td>34 SHIITA STREET LAGOS</td>
+                    <td>090.......</td><br>
+
+                    <td>.......@YAHOO.COM</td>
+                </tr>
+
+                <tr align="center" bgcolor="lightgrey">
+                    <td>FAVOUR LAMB</td>
+                    <td>6 OSHODI STREET LAGOS</td>
+                    <td>070........</td>
+                    <td>........@GMAIL</td>
+
+
+                </tr>
+
+                <tr align="center" bgcolor="lightgrey">
+                    <td>SAMUEL OKON</td>
+                    <td>5 RAILWAY STREET LAGOS</td>
+                    <td>091......</td>
+                    <td>.........@GMAIL</td>
+                </tr>
+
+                <tr align="center" bgcolor="lightgrey">
+                
+                    <td>TUNJI WEST</td>
+                    <td>2 COLE STREET LAGOS</td>
+                    <td>080.......</td>
+                    <td>......@GMAIL</td>
+                </tr>
+            </table>
+        </div>
+
+        
+            <h3>REGISTRATION FORM</h3>
+            
+        form>
+            <div style="margin-bottom: 30px;">
+                <div>
+                    <label for="Name" >First Name</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="First Name" required 
+                    oninvalid="setCustomValidity('Enter your Name here')" oninput="setCustomValidity()">
+                    
+            
+                </div>
+            </div>
+            <div style="margin-bottom: 30px;">
+                <div>
+                    <label for="Name">Last Name</label>
+                </div>
+                <div>   
+                    <input type="text" placeholder="Last Name" required 
+                    required 
+                    oninvalid="setCustomValidity('Enter your Name here')">
+            
+                </div>
+            </div> 
+            <div style="margin-bottom: 30px;"> 
+                <div> 
+                    <label for="Email">Email</label>
+                </div>    
+                <div>
+                    <input type="email" placeholder="Email" required 
+                    oninvalid="setCustomValidity('Enter your Name her')">
+                </div>
+            </div>
+            <div style="margin-bottom: 30px;">    
+                <div>
+                    <label for="Telephone number">Telephone</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Telephone Number" required 
+                    oninvalid="setCustomValidity('Enter your Name her')">
+                </div>
+            </div>    
+               
+            <div>      
+                <div>
+                    <label for="Date">Date of Order</label>
+                </div>
+              <div>
+                <input type="date" placeholder="Date" required 
+                oninvalid="setCustomValidity('Enter your Name her')">
+                
+            </div><br>
+            <div>
+                <label for="Password">Password</label>
+            </div>
+            <div>
+                <input type="password" placeholder="Password" required 
+                oninvalid="setCustomValidity('Enter your Name her')">
+            </div>
+
+            <div>
+                <p>
+                    GENDER
+                </p>
+                <input type="radio" name="pick" id="rad1" value="Male">
+                    <label for="radi">Male</label>
+                    
+
+                    <input type="radio" name="pick" id="rad1" value="Female">
+                    <label for="radi">Female</label>
+
+            </div>
+
+            <div>
+                <h4> Day to recieve</h4>
+                <input type="checkbox" name="pick1" id="pick1" value="sundey">
+                <label for="pick1">Sunday</label><br>
+                <input type="checkbox" name="pick1" id="pick1" value="Monday">
+                <label for="pick1">Monday</label><br>
+                <input type="checkbox" name="pick1" id="pick1" value="Tueday">
+                <label for="pick1">Tueday</label><br>
+                <input type="checkbox" name="pick1" id="pick1" value="wednessday">
+                <label for="pick1">wednessday</label><br>
+                <input type="checkbox" name="pick1" id="pick1" value="Thursday">
+                <label for="pick1">Thursday</label><br>
+                <input type="checkbox" name="pick1" id="pick1" value="Fiday">
+                <label for="pick1">Friday</label><br>
+                <input type="checkbox" name="pick1" id="pick1" value="Saturday">
+                <label for="pick1">Saturday</label>
+            </div>
+            
+        
+        <div>
+            <p>
+                Preferred method of communication
+            </p>
+            <select>
+                <option>Email</option>
+                <option>Telephone</option>
+                
+            </select>
+        </div><br>
+
+        <input type="submit" name="SUBMIT" value="SUBMIT">
+
+    </form>
+
+
+    </div>
+    
+</body>
+</html>
